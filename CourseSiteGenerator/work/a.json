@@ -1,0 +1,259 @@
+
+{
+    "course_details":{
+        "course_info":{
+            "subject":"CSE",
+            "number":"219",
+            "semester":"Spring",
+            "year":"2018",
+            "title":"Computer Science III",
+            "instructor_name":"Ritwik Banerjee",
+            "instructor_home":"http://www3.cs.stonybrook.edu/~rbanerjee/",
+            "export_dir":"C:\\Users\\shinn\\Documents\\Academic\\CSE219\\Homeworks\\CourseSiteGenerator\\Courses\\CSE219"
+        },
+        "template_dir":"C:\\Users\\shinn\\Documents\\Academic\\CSE219\\Homeworks\\CourseSiteGenerator\\CourseSiteGenerator\\templates\\CSE",
+        "site_pages":[
+            {
+                "use":"true",
+                "navbar_title":"HWs",
+                "file_name":"hws.html",
+                "script":"HWsBuilder.js"
+            },
+            {
+                "use":"true",
+                "navbar_title":"Home",
+                "file_name":"index.html",
+                "script":"HomeBuilder.js"
+            },
+            {
+                "use":"true",
+                "navbar_title":"Projects",
+                "file_name":"projects.html",
+                "script":"ProjectsBuilder.js"
+            },
+            {
+                "use":"true",
+                "navbar_title":"Schedule",
+                "file_name":"schedule.html",
+                "script":"ScheduleBuilder.js"
+            },
+            {
+                "use":"true",
+                "navbar_title":"Syllabus",
+                "file_name":"syllabus.html",
+                "script":"SyllabusBuilder.js"
+            }
+        ],
+        "banner_dir":"file:/C:/Users/shinn/Documents/Academic/CSE219/Homeworks/CourseSiteGenerator/CourseSiteGenerator/images/SBUDarkRedShieldLogo.png",
+        "left_footer_image_dir":"file:/C:/Users/shinn/Documents/Academic/CSE219/Homeworks/CourseSiteGenerator/CourseSiteGenerator/images/SBUWhiteShieldLogo.jpg",
+        "right_footer_image_dir":"file:/C:/Users/shinn/Documents/Academic/CSE219/Homeworks/CourseSiteGenerator/CourseSiteGenerator/images/CSLogo.png",
+        "stylesheet":"sea_wolf_2.css"
+    },
+    "ta_data":{
+        "startHour":"8",
+        "endHour":"18",
+        "tas":[
+            {
+                "is_undergrad":"true",
+                "name":"Jane Doe",
+                "email":"jane.doe@yahoo.com"
+            },
+            {
+                "is_undergrad":"false",
+                "name":"Joe Shmo",
+                "email":"joe.shmo@yale.edu"
+            }
+        ],
+        "officeHours":[
+            {
+                "day":"MONDAY",
+                "time":"8_00am",
+                "name":"Jane Dow"
+            },
+            {
+                "day":"WEDNESDAY",
+                "time":"8_00am",
+                "name":"Joe Shmo"
+            },
+            {
+                "day":"MONDAY",
+                "time":"9_00am",
+                "name":"Joe Shmo"
+            },
+            {
+                "day":"WEDNESDAY",
+                "time":"9_00am",
+                "name":"Jane Dow"
+            },
+            {
+                "day":"THURSDAY",
+                "time":"10_00am",
+                "name":"Jane Dow"
+            },
+            {
+                "day":"FRIDAY",
+                "time":"11_00am",
+                "name":"Joe Shmo"
+            },
+            {
+                "day":"FRIDAY",
+                "time":"2_00pm",
+                "name":"Jane Dow"
+            },
+            {
+                "day":"MONDAY",
+                "time":"4_00pm",
+                "name":"Joe Shmo"
+            }
+        ]
+    },
+    "recitation_data":{
+        "recitations":[
+            {
+                "section":"R02",
+                "instructor":"McKenna",
+                "day_time":"Wed 3:30pm-4:23pm",
+                "location":"Old CS 2114",
+                "ta_1":"Jane Doe",
+                "ta_2":"Joe Shmo"
+            },
+            {
+                "section":"R05",
+                "instructor":"Banerjee",
+                "day_time":"Tues 5:30pm-6:23pm",
+                "location":"Old CS 2114",
+                "ta_1":"Jane Doe",
+                "ta_2":"Joe Shmo"
+            }
+        ]
+    },
+    "schedule_data":{
+        "starting_monday":"2017-04-03",
+        "ending_friday":"2017-05-05",
+        "schedule_items":[
+            {
+                "type":"Holiday",
+                "date":"2017-04-11",
+                "time":"whole day",
+                "title":"SNOW DAY",
+                "topic":"whole day",
+                "link":"http://funnybizblog.com/funny-stuff/calvin-hobbes-snowman-cartoons",
+                "criteria":"None"
+            },
+            {
+                "type":"Lecture",
+                "date":"2017-04-12",
+                "time":"",
+                "title":"Lecture 8",
+                "topic":"",
+                "link":"",
+                "criteria":""
+            },
+            {
+                "type":"Reference",
+                "date":"2017-04-14",
+                "time":"",
+                "title":"Reference",
+                "topic":"",
+                "link":"https://blackboard.stonybrook.edu/bbcswebdav/pid-3870769-dt-content-rid-24893045_1/xid-24893045_1",
+                "criteria":""
+            },
+            {
+                "type":"Recitation",
+                "date":"2017-04-19",
+                "time":"",
+                "title":"Recitation 1",
+                "topic":"",
+                "link":"",
+                "criteria":""
+            },
+            {
+                "type":"HW",
+                "date":"2017-04-17",
+                "time":"11:59pm",
+                "title":"HW 1",
+                "topic":"due @ 11:59pm",
+                "link":"",
+                "criteria":"https://docs.google.com/spreadsheets/d/1hDY9OR4Nu5p2XLd3mkTB93y78Bnk3LInO0Ydkrz8gZg"
+            }
+        ]
+    },
+    "project_data":{
+        "teams":[
+            {
+                "name":"Atomic Comics",
+                "color":"552211",
+                "red":"85",
+                "green":"34",
+                "blue":"17",
+                "text_color":"ffffff",
+                "text_red":"255",
+                "text_green":"255",
+                "text_blue":"255",
+                "link":"http://atomiccomic.com"
+            },
+            {
+                "name":"C4 Comics",
+                "color":"235399",
+                "red":"35",
+                "green":"83",
+                "blue":"153",
+                "text_color":"ffffff",
+                "text_red":"255",
+                "text_green":"255",
+                "text_blue":"255",
+                "link":"http://c4-comics.com"
+            }
+        ],
+        "students":[
+            {
+                "first_name":"Beau",
+                "last_name":"Brummell",
+                "team":"Atomic Comics",
+                "role":"Lead Designer"
+            },
+            {
+                "first_name":"Jane",
+                "last_name":"Doe",
+                "team":"C4 Comics",
+                "role":"Lead Programmer"
+            },
+            {
+                "first_name":"Jose",
+                "last_name":"Rodriguez",
+                "team":"C4 Comics",
+                "role":"Lead Designer"
+            },
+            {
+                "first_name":"Maryia",
+                "last_name":"Maskaliova",
+                "team":"Atomic Comics",
+                "role":"Lead Programmer"
+            },
+            {
+                "first_name":"Matthew",
+                "last_name":"Monsour",
+                "team":"Atomic Comics",
+                "role":"Data Designer"
+            },
+            {
+                "first_name":"Thomas",
+                "last_name":"Karnati",
+                "team":"Atomic Comics",
+                "role":"Project Manager"
+            },
+            {
+                "first_name":"Verma",
+                "last_name":"Rahul",
+                "team":"C4 Comics",
+                "role":"Data Designer"
+            },
+            {
+                "first_name":"Zach",
+                "last_name":"Lerman",
+                "team":"C4 Comics",
+                "role":"Project Manager"
+            }
+        ]
+    }
+}

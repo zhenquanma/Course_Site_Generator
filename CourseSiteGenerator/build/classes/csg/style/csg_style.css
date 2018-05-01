@@ -1,0 +1,235 @@
+/* 
+    This style sheet stylizes the controls inside our
+    TA Manager JavaFX application. Note that controls
+    in the UI must have the same class as those below in 
+    order to be rendered using those properties.
+
+    Note that it may seem overwhelming to see so many different
+    style classes, even though our application doesn't have that
+    many controls, but what this allows us to do is easily
+    control and update the style of the entire user interface
+    via a stylesheet without having the change Java code.
+
+    Author:	Richard McKenna
+    Version:	1.0
+*/
+.root{
+    -fx-font-family: "Courier New";
+    -fx-font-color: black;
+}
+
+.dialog_pane {
+    -fx-padding:15;
+}
+
+.dialog_heading {
+    -fx-font-size: 24pt;
+    -fx-background-color: bisque;
+    -fx-color:red;
+}
+
+.dialog_prompt {
+    -fx-font-size: 16pt;
+    -fx-font-weight: bold;
+    -fx-padding: 10;
+}
+
+.plain_pane{
+
+}
+
+.bordered_pane {
+    -fx-background-color: #FAEBD7;
+    -fx-background-radius: 5.0;
+}
+
+.left_bordered_pane {
+    -fx-padding: 10;
+    -fx-spacing: 20;
+    -fx-border-color: black;
+}
+
+.right_bordered_pane {
+    -fx-padding: 10;
+    -fx-spacing: 50;
+    -fx-border-color: black;
+}
+
+.file_button {
+    -fx-background-color: #A9A9A9;
+    -fx-background-radius: 5.0;
+    -fx-pref-width: 90px;
+}
+
+.tab-pane {
+    -fx-padding: 15;
+    -fx-border-color: black;
+    -fx-tab-min-width: 200px;
+    -fx-background-color: #FAEBD7;
+    -fx-background-radius: 5.0;
+}
+
+.tab-pane >.tab-header-area>.tab-header-background {
+    -fx-background-color: #FAEBD7;
+}
+
+
+.tab:selected {
+    -fx-background-color:#A9A9A9;
+}
+
+
+.header_pane{
+    -fx-background-color:#FFDEAD;
+    -fx-alignment:center-left;
+}
+
+.header_label {
+    -fx-font-size: 20pt;
+    -fx-font-weight: bold;
+    -fx-padding: 5 10 5 10;
+}
+
+.ta_table{
+    -fx-font-size:16pt;
+    -fx-background-color:#A9A9A9;
+}
+
+.table-view .column-header.ta_table_column_header .label {
+    -fx-text-fill:white;
+    -fx-background-color:#A9A9A9;
+}
+
+.add_ta_pane{
+    -fx-padding: 5 10 5 10;
+    -fx-background-color:#FFDEAD;
+}
+
+.add_ta_text_field{
+    -fx-font-size: 14pt;
+}
+
+.add_ta_button{
+    -fx-font-size: 14pt;
+    -fx-font-weight: bold;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;    
+}
+
+.clear_button{
+    -fx-font-size: 14pt;
+    -fx-font-weight: bold;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;    
+}
+
+.start_end_time_pane{
+    -fx-spacing: 15;
+    -fx-padding: 5 10 5 10;
+}
+.combo_box_pane{
+    -fx-alignment:CENTER_RIGHT;
+}
+
+.combo_box_pane .label {
+    -fx-font-size: 13pt;
+    -fx-font-weight: bold;
+}
+
+.office_hours_grid{
+
+}
+
+.office_hours_grid_time_column_header_pane{
+    -fx-background-color:#A9A9A9;
+    -fx-border: 1px;
+    -fx-border-color: black;
+}
+
+.office_hours_grid_time_column_header_label{
+    -fx-text-fill:white;
+    -fx-font-size:14pt;   
+    -fx-font-weight:bold;
+    -fx-padding: 10 20 10 20;
+}
+
+.office_hours_grid_day_column_header_pane{
+    -fx-background-color:#A9A9A9;
+    -fx-border: 1px;
+    -fx-border-color: black;
+}
+
+.office_hours_grid_day_column_header_label{
+    -fx-text-fill:white;
+    -fx-font-size:14pt;   
+    -fx-font-weight:bold;
+    -fx-padding: 10 20 10 20;
+}
+
+.office_hours_grid_time_cell_pane{
+    -fx-background-color:#000099; 
+    -fx-border: 1px;   
+    -fx-border-color:darkgray;
+    -fx-border-style:dashed;
+}
+
+.office_hours_grid_time_cell_label{
+    -fx-font-size:14pt;
+    -fx-text-fill:white;
+}
+
+.office_hours_grid_ta_cell_pane{
+    -fx-background-color:#abab78;
+    -fx-border: 1px;
+    -fx-border-color: black;
+}
+
+.office_hours_grid_ta_cell_label{
+    -fx-font-weight:bold;
+    -fx-font-size:12pt;  
+    -fx-padding: 5 10 5 10;
+}
+
+.highlighted_grid_cell {
+    -fx-border-color: #ffff00;
+    -fx-border: 5px;
+}
+
+.highlighted_grid_row_or_column {
+    -fx-border-color: #aaaa00;
+    -fx-border: 5px;
+    -fx-border-style:solid;
+}
+
+/* COURSE DETAILS PAGE */
+.background_pane {
+    -fx-background-color: #FFDEAD;
+    -fx-border-color: black;
+    -fx-padding: 15;
+    -fx-spacing: 15;
+}
+
+.block_pane {
+    -fx-background-color: D3D3D3;
+    -fx-border-color: black;
+    -fx-padding: 15;
+    -fx-vgap: 15;
+    -fx-hgap: 15;
+}
+
+.block_pane .text-field {
+    -fx-min-width: 400;
+}
+
+/* RECITATION PAGE */
+.header_box {
+    -fx-background-color: #FFDEAD;
+    -fx-font-size:20;
+
+}
+
+.add_edit_pane {
+    -fx-padding: 10;
+    -fx-vgap:15;
+    -fx-hgap:25;
+}

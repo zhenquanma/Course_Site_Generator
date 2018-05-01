@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This XML file allows us to easily customize the look and language used
+    in our program's user interface. Note that this properties file is only
+    for the standard controls for an app from the Desktop Java Framework, so
+    it would not include things initialized for the workspace, which is
+    customizable.
+-->
+<properties>
+    <property_list>
+        <property name="APP_TITLE"	    value="课程网页生成器"></property>
+	<property name="APP_LOGO"	    value="TAManagerLogo.png"></property>
+	<property name="APP_PATH_CSS"	    value="style/"></property>
+	<property name="APP_CSS"	    value="csg_style.css"></property>
+        
+        <!-- PROGRAM ICON FILES -->
+        <property name="NEW_ICON"	    value="Add.png"></property>
+        <property name="LOAD_ICON"	    value="Load.png"></property>
+        <property name="SAVE_ICON"	    value="Save.png"></property>
+        <property name="SAVE_AS_ICON"       value="SaveAs.png"></property>
+        <property name="EXPORT_ICON"        value="Export.png"></property>
+        <property name="EXIT_ICON"          value="Exit.png"></property>
+        <property name="UNDO_ICON"          value="Undo.png"></property>
+        <property name="REDO_ICON"          value="Redo.png"></property>
+        <property name="ABOUT_ICON"         value="About.png"></property>
+        
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="NEW_TOOLTIP"		value="新建文件"></property>
+        <property name="LOAD_TOOLTIP"		value="读取文件"></property>
+        <property name="SAVE_TOOLTIP"		value="保存当前文件"></property>
+        <property name="SAVE_AS_TOOLTIP"        value="另存为"></property>
+        <property name="EXPORT_TOOLTIP"         value="导出当前文件"></property>
+        <property name="EXIT_TOOLTIP"		value="退出程序"></property>
+        <property name="UNDO_TOOLTIP"           value="撤销"></property>
+        <property name="REDO_TOOLTIP"           value="重做"></property>
+        <property name="ABOUT_TOOLTIP"          value="关于程序"></property>
+
+        <!-- ERROR MESSAGES -->
+        <property name="CLOSE_BUTTON_TEXT"              value="关闭"></property>
+
+        <property name="NEW_ERROR_MESSAGE"              value="An error occured creating New work."></property>
+        <property name="NEW_ERROR_TITLE"		value="New Work Error"></property>
+        <property name="LOAD_ERROR_MESSAGE"             value="An error occured loading work."></property>
+        <property name="LOAD_ERROR_TITLE"		value="Load Work Error"></property>
+        <property name="SAVE_ERROR_MESSAGE"             value="An error occured saving work."></property>
+        <property name="SAVE_ERROR_TITLE"		value="Save Work Error"></property>
+        <property name="PROPERTIES_LOAD_ERROR_MESSAGE"	value="An error occured loading a properties file."></property>	
+        <property name="PROPERTIES_LOAD_ERROR_TITLE"	value="Properties File Loading Error"></property>
+        <property name="EXPORT_ERROR_TITLE"             value="Export Work Error"></property>
+        <property name="EXPORT_ERROR_MESSAGE"           value="An error occured exporting work."></property> 
+	<property name="TIME_SLOT_ERROR_TITLE"          value="Time Slot Error"></property>
+        <property name="TIME_SLOT_ERROR_MESSAGE"        value="Start time must earlier than the end time."></property>
+        
+        <!-- VERIFICATION MESSAGES -->
+	
+        <property name="NEW_COMPLETED_MESSAGE"		value="新文件已可编辑"></property>
+        <property name="NEW_COMPLETED_TITLE"		value="新文件已建立"></property>
+        <property name="LOAD_COMPLETED_MESSAGE"		value="文件读取完成"></property>
+        <property name="LOAD_COMPLETED_TITLE"		value="读取完成"></property>
+        <property name="SAVE_COMPLETED_MESSAGE"		value="已保存"></property>
+        <property name="SAVE_COMPLETED_TITLE"		value="保存完成"></property>
+        <property name="SAVE_UNSAVED_WORK_MESSAGE"	value="是否保存当前问保存文件"></property>
+        <property name="SAVE_UNSAVED_WORK_TITLE"	value="保存未存文件?"></property>
+        <property name="EXPORT_COMPLETED_TITLE"         value="导出完成"></property>
+        <property name="EXPORT_COMPLETED_MESSAGE"       value="办公室时间导出完成."></property>
+        <property name="TIMESLOT_VERIFICATION_TITLE"    value="时间区间更改验证"></property>
+        <property name="TIMESLOT_VERIFICATION_MESSAGE"  value="时间区间的过呢更改会导致部分助教被删除， 是否继续?"></property>
+	
+        <property name="NEW_CREATED_MESSAGE"		value="新文件已创建但未保存"></property>
+        <property name="WORK_LOADED_MESSAGE"		value="文件已读取"></property>
+        <property name="WORK_SAVED_MESSAGE"		value="文件已保存"></property>
+        <property name="SAVE_UNSAVED_WORK_MESSAGE"	value="是否保存当前未存文件?"></property>
+	<property name="SAVE_WORK_TITLE"		value="保存文件"></property>
+	<property name="LOAD_WORK_TITLE"		value="选择文件夹来保存"></property>
+	<property name="WORK_FILE_EXT"			value="json"></property>
+	<property name="WORK_FILE_EXT_DESC"		value="助教办公时间"></property>
+        <property name="EXPORT_WORK_TITLE"              value="导出你的文件"></property>
+        <property name="EXPORT_WORK_MEASSAGE"           value="文件已导出"></property>
+       
+
+        <!-- WORKSPACE CONTROLS STUFF -->        
+        <property name="TAS_HEADER_TEXT"                value="助教"></property>
+        <property name="NAME_COLUMN_TEXT"               value="名字"></property>
+        <property name="EMAIL_COLUMN_TEXT"              value="电邮"></property>
+        <property name="UNDERGRAD_COLUMN_TEXT"          value="本科"></property>
+        <property name="NAME_PROMPT_TEXT"               value="名字"></property>
+        <property name="EMAIL_PROMPT_TEXT"              value="电邮"></property>
+        <property name="ADD_BUTTON_TEXT"                value="添加助教"></property>
+        <property name="UPDATE_BUTTON_TEXT"             value="更新助教"></property>
+        <property name="CLEAR_BUTTON_TEXT"              value="清空"></property>
+        <property name="OFFICE_HOURS_SUBHEADER"         value="办公时间表格"></property>
+        <property name="START_TIME_TEXT"                value="开始时间:"></property>
+        <property name="END_TIME_TEXT"                  value="结束时间:"></property>
+        
+        <!-- WORKSPACE ERROR MESSAGES -->
+        <property name="MISSING_TA_NAME_TITLE"          value="缺少助教名字"></property>
+        <property name="MISSING_TA_NAME_MESSAGE"        value="你必须提供助教名字"></property>
+        <property name="MISSING_TA_EMAIL_TITLE"         value="缺少电子邮件"></property>
+        <property name="MISSING_TA_EMAIL_MESSAGE"       value="你必须提供电子邮件"></property>
+        <property name="TA_NAME_AND_EMAIL_NOT_UNIQUE_TITLE"     value="助教名字或电邮有重复"></property>
+        <property name="TA_NAME_AND_EMAIL_NOT_UNIQUE_MESSAGE"   value="你必须提供无重复的助教名字和电子邮件地址"></property>
+	<property name="INVALID_EMAIL_TITLE"            value="无效的电子邮件地址"></property>
+        <property name="INVALID_EMAIL"                  value="电子邮箱地址不符合格式"></property>
+        
+        <!-- TABS NAME -->
+        <property name="COURSE_DETAILS_TXT"             value="课程详细"></property>
+        <property name="TA_DATA_TXT"                    value="助教资料"></property>
+        <property name="RECITATION_DATA_TXT"            value="复习课资料"></property>
+        <property name="SCHEDULE_DATA_TXT"              value="时间安排资料"></property>
+        <property name="PROJECT_DATA_TXT"               value="项目资料"></property>
+        
+        <!-- COURSE DETAILS PAGE -->
+        <property name="COURSE_INFO_TEXT"               value="课程信息"></property>
+        <property name="SUBJECT_TEXT"                   value="科目:"></property>
+        <property name="NUMBER_TEXT"                    value="号码:"></property>
+        <property name="SEMESTER_TEXT"                  value="学期:"></property>
+        <property name="YEAR_TEXT"                      value="年："></property>
+        <property name="TITLE_TEXT"                     value="标题:"></property>
+        <property name="INSTRUCTOR_NAME_TEXT"           value="讲师名字:"></property>
+        <property name="INSTRUCTORS_HOME_TEXT"          value="讲师主页:"></property>
+        <property name="EXPORT_DIR_TEXT"                value="导出路径:"></property>
+        <property name="CHANGE_BUTTON_TEXT"             value="修改"></property>
+        
+        <property name="SITE_TEMPLATE_TEXT"             value="网页模板"></property>
+        <property name="INSTRUCTION_TEXT"               value="选择的路径需要包含HTML文件在内的完整网页模板"></property>
+        <property name="SELECT_TEMPLATE_DIR_BUTTON_TEXT"    value="选择模板文件路径"></property>
+        <property name="SITE_PAGES_TEXT"                value="网页:"></property>
+        <property name="USE_COLUMN_TEXT"                value="使用"></property>
+        <property name="NAVBAR_COLUMN_TEXT"             value="导航标题"></property>
+        <property name="FILENAME_COLUMN_TEXT"           value="文件名"></property>
+        <property name="SCRIPT_COLUMN_TEXT"             value="脚本"></property>
+        
+        <property name="PAGE_STYLE_TEXT"                value="页面样式"></property>
+        <property name="BANNER_SCHOOL_IMAGE_TEXT"       value="学校标志图片:"></property>
+        <property name="LEFT_FOOTER_IMAGE_TEXT"         value="左下角图片:"></property>
+        <property name="RIGHT_FOOTER_IMAGE_TEXT"        value="右下角图片:"></property>
+        <property name="STYLESHEET_TEXT"                value="样式表:"></property>
+        <property name="NOTE_MESSAGE"                   value="注意：新样式表位于work/css可供选择"></property>
+        
+        <!-- RECITATION PAGE -->
+        <property name="RECITATION_HEARDER_TEXT"        value="复习课"></property>
+        <property name="ADD_EDIT_HEADER_TEXT"           value="添加/修改"></property>
+        <property name="SECTION_TEXT"                   value="部分:"></property>
+        <property name="INSTRUCTOR_TEXT"                value="讲师:"></property>
+        <property name="DAY_TIME_TEXT"                  value="日期时间:"></property>
+        <property name="LOCATION_TEXT"                  value="地址:"></property>
+        <property name="SUPERVISING_TA_TEXT"            value="高级助教:"></property>
+        <property name="ADD_UPDATE_BUTTON_TEXT"         value="添加/修改"></property>
+        <property name="TA_TEXT"                        value="助教"></property>
+        
+        <!-- SCHEDULE PAGE -->
+        <property name="SCHEDULE_HEADER_TEXT"           value="时间安排"></property>
+        <property name="CALENDAR_BOUNDARIES_HEADER_TEXT"    value="日期限制"></property>
+        <property name="STARTING_MONDAY_TEXT"           value="起始周一:"></property>
+        <property name="ENDING_FRIDAY_TEXT"             value="结束周五:"></property>
+        <property name="SCHEDULE_ITEMS_HEADER_TEXT"     value="安排事项"></property>
+        <property name="TYPE_TEXT"                      value="类型:"></property>
+        <property name="DATE_TEXT"                      value="日期:"></property>
+        <property name="TIME_TEXT"                      value="时间:"></property>
+        <property name="TOPIC_TEXT"                     value="主题:"></property>
+        <property name="LINK_TEXT"                      value="链接:"></property>
+        <property name="CRITERIA_TEXT"                  value="准则:"></property>
+        
+        <!-- PROJECT PAGE -->
+        <property name="PROJECT_HEADER_TEXT"            value="项目"></property>
+        <property name="TEAMS_HEADER_TEXT"              value="队伍"></property>
+        <property name="COLOR_COLUMN_TEXT"              value="颜色 (十六进制)"></property>
+        <property name="TEXT_COLOR_COLUMN_TEXT"         value="字体颜色 (十六进制)"></property>
+        <property name="LINK_COLUMN_TEXT"               value="链接"></property>
+        <property name="NAME_LABEL_TEXT"                value="名字:"></property>
+        <property name="COLOR_LABEL_TEXT"               value="颜色:"></property>
+        <property name="TEXT_COLOR_LABEL_TEXT"          value="字体颜色:"></property>
+        <property name="LINK_LABEL_TEXT"                value="链接:"></property>
+        <property name="STUDENTS_HEADER_TEXT"           value="学生"></property>
+        <property name="FIRST_NAME_COLUMN_TEXT"         value="名字"></property>
+        <property name="LAST_NAME_COLUMN_TEXT"          value="姓氏"></property>
+        <property name="TEAM_COLUMN_TEXT"               value="队伍"></property>
+        <property name="ROLE_COLUMN_TEXT"               value="角色"></property>
+        <property name="FIRST_NAME_LABEL_TEXT"          value="名字:"></property>
+        <property name="LAST_NAME_LABEL_TEXT"           value="姓氏:"></property>
+        <property name="TEAM_LABEL_TEXT"                value="队伍:"></property>
+        <property name="ROLE_LABEL_TEXT"                value="角色:"></property>
+
+        
+
+    </property_list>
+    <property_options_list>
+        <property_options name="OFFICE_HOURS_TABLE_HEADERS">
+            <option>开始时间</option>
+            <option>结束时间</option>
+        </property_options>
+        <property_options name="DAYS_OF_WEEK">
+            <option>星期一</option>
+            <option>星期二</option>
+            <option>星期三</option>
+            <option>星期四</option>
+            <option>星期五</option>
+        </property_options>
+    </property_options_list>
+</properties>
